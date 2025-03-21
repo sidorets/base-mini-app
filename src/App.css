@@ -1,10 +1,11 @@
 .content-container {
-    padding-top: calc(var(--tg-content-safe-area-inset-top, 16px) + 40px);
-    padding-bottom: var(--tg-content-safe-area-inset-bottom, 16px);
-    padding-left: var(--tg-content-safe-area-inset-left, 16px);
-    padding-right: var(--tg-content-safe-area-inset-right, 16px);
-    background-color: black;
-    color: white;
-    min-height: 100vh;
-    overflow: auto;
-  }
+  padding-top: calc(var(--tg-content-safe-area-inset-top, 16px) + 60px); /* Увеличиваем отступ */
+  padding-bottom: var(--tg-content-safe-area-inset-bottom, 16px);
+  padding-left: var(--tg-content-safe-area-inset-left, 16px);
+  padding-right: var(--tg-content-safe-area-inset-right, 16px);
+  margin-top: 50px; /* Принудительно сдвигаем контент вниз */
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  overflow: auto;
+}
