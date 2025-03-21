@@ -1,0 +1,6 @@
+.safe-area-container {
+    padding-top: var(--tg-content-safe-area-inset-top);
+    padding-bottom: var(--tg-content-safe-area-inset-bottom);
+    padding-left: var(--tg-content-safe-area-inset-left);
+    padding-right: var(--tg-content-safe-area-inset-right);
+  }
