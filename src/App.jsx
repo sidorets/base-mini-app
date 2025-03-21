@@ -15,7 +15,7 @@ export default function App() {
 
       if (isTelegram) {
       console.log("Running inside Telegram WebApp");
-      tg.requestFullscreen(); // Only isinde Telegram
+      tg.requestFullscreen(); // Only inside Telegram
       } else {
       console.log("Running in a regular browser. Fullscreen is disabled.");
       }
@@ -25,7 +25,7 @@ export default function App() {
   // App Interface
   return (
     <div className="content-container">
-      <div className="bg-gray-900 text-white min-h-screen flex flex-col items-start justify-center p-4">
+      <div className="content-container bg-gray-900 text-white min-h-screen flex flex-col items-start justify-center p-4">
         <h1 className="text-3xl font-bold">Some content 🚀</h1>
         <h1 className="text-3xl font-bold">Some content 🚀</h1>
         <h1 className="text-3xl font-bold">Some content 🚀</h1>
