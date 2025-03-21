@@ -33,7 +33,7 @@ export default function App() {
         paddingRight: "var(--tg-content-safe-area-inset-right)"
       }}
     >
-      <h1 className="text-3xl font-bold text-black">Привет, Emma! 🚀</h1>
+      <h1 className="text-3xl font-medium">Привет, Emma! 🚀</h1>
       <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
       <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
       <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
