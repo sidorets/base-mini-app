@@ -50,7 +50,6 @@ export default function App() {
         <h1 className="text-3xl font-bold">Some content 🚀</h1>
         <h1 className="text-3xl font-bold">Some content 🚀</h1>
         <h1 className="text-3xl font-bold">Some content 🚀</h1>
-        
         <p className="mt-2 text-gray-300">Mini App теперь использует content-container.</p>
       </div>
     </div>
