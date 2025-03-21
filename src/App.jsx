@@ -27,6 +27,33 @@ export default function App() {
     <div className="content-container">
       <div className="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center p-4">
         <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
         <p className="mt-2 text-gray-300">Mini App теперь использует content-container.</p>
       </div>
     </div>
