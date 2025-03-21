@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+.content-container {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: var(--tg-content-safe-area-inset-top);
+    padding-bottom: var(--tg-content-safe-area-inset-bottom);
+    padding-left: var(--tg-content-safe-area-inset-left);
+    padding-right: var(--tg-content-safe-area-inset-right);
+    background-color: black;
+    color: white;
+  }

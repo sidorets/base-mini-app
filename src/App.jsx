@@ -25,7 +25,7 @@ export default function App() {
   // App Interface
   return (
     <div className="content-container">
-      <div className="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center p-4">
+      <div className="bg-gray-900 text-white min-h-screen flex flex-col items-start justify-center p-4">
         <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
         <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
         <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
