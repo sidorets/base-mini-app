@@ -24,55 +24,11 @@ export default function App() {
 
   // App Interface
   return (
-    <div 
-      className="safe-area-container bg-gray-900 text-white min-h-screen flex flex-col items-start justify-start"
-      style={{
-        paddingTop: "var(--tg-content-safe-area-inset-top)",
-        paddingBottom: "var(--tg-content-safe-area-inset-bottom)",
-        paddingLeft: "var(--tg-content-safe-area-inset-left)",
-        paddingRight: "var(--tg-content-safe-area-inset-right)"
-      }}
-    >
-      <h1 className="text-3xl font-bold">Привет, Emma11! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-      <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-
-      <p className="text-gray-300">Контент теперь не залезает под UI Telegram.</p>
+    <div className="content-container">
+      <div className="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center p-4">
+        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <p className="mt-2 text-gray-300">Mini App теперь использует content-container.</p>
+      </div>
     </div>
   );
 }
