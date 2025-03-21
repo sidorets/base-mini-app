@@ -10,6 +10,13 @@ export default function App() {
       tg.expand();
       tg.disableVerticalSwipes();
 
+      tg.onEvent("viewportChanged", () => {
+        document.documentElement.style.setProperty(
+          "--tg-content-safe-area-inset-top",
+          `${tg.viewportStableHeight}px`
+        );
+      });
+
       // Check if Telegram is Open
       const isTelegram = tg.initDataUnsafe?.query_id !== undefined;
 
