@@ -10,13 +10,6 @@ export default function App() {
       tg.expand();
       tg.disableVerticalSwipes();
 
-      tg.onEvent("viewportChanged", () => {
-        document.documentElement.style.setProperty(
-          "--tg-content-safe-area-inset-top",
-          `${tg.viewportStableHeight}px`
-        );
-      });
-
       // Check if Telegram is Open
       const isTelegram = tg.initDataUnsafe?.query_id !== undefined;
 
@@ -33,34 +26,31 @@ export default function App() {
   return (
     <div className="content-container">
       <div className="bg-gray-900 text-white min-h-screen flex flex-col items-start justify-center p-4">
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
-        <h1 className="text-3xl font-bold">Привет, Emma! 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        <h1 className="text-3xl font-bold">Some content 🚀</h1>
+        
         <p className="mt-2 text-gray-300">Mini App теперь использует content-container.</p>
       </div>
     </div>
